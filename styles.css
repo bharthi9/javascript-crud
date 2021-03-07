@@ -1,0 +1,33 @@
+body {
+    background: #7952B3;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+}
+.container {
+    max-width: 590px;
+}
+#table-data .table button , #add button {
+    background-color: #ffffff;
+    color:  #7952B3;
+}
+#table-data .table {
+    color: #ffffff;
+}
+#search {
+    padding-top: 2.2em;
+}
+.filtered {
+    display: none !important;
+}
+
+/*edit */
+#table-data .table td input[type=text] {
+    display: none;
+}
+#table-data .table .edit-mode input[type=text] {
+    display: block;
+}
+
+#table-data .table .edit-mode label {
+    display: none;
+}
