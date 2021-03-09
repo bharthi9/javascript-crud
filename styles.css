@@ -1,33 +1,78 @@
 body {
-    background: #7952B3;
-    font-family: 'Roboto', sans-serif;
+    background: #7952b3;
+    font-family: "Roboto", sans-serif;
     font-size: 15px;
 }
-.container {
-    max-width: 590px;
+.crud {
+    max-width: 550px;
+    width: 100%;
+    margin: 20px auto;
 }
-#table-data .table button , #add button {
-    background-color: #ffffff;
-    color:  #7952B3;
+#crud-header,
+#crud-search,
+#crud-addData {
+    text-align: center;
+    padding: 10px;
 }
-#table-data .table {
+#crud-header h1 {
+    color: #fff;
+}
+#crud-search input {
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+}
+#crud-data .table {
+    width: 96%;
+    margin: 5px 2%;
+    border-collapse: collapse;
+}
+#crud-data tr {
+    border-bottom: 1px solid #fff;
+}
+#crud-data .table thead tr th,
+#crud-data .table tbody tr td {
+    text-align: left;
+    padding: 10px;
+}
+#crud-data .table button,
+#addData button {
+    background-color: #fff;
+    color: #7952b3;
+    border-radius: 5px;
+}
+
+#crud-data .table {
     color: #ffffff;
 }
-#search {
+#crud-search {
     padding-top: 2.2em;
 }
 .filtered {
     display: none !important;
 }
+#crud-addData input,
+#crud-addData button {
+    margin: 10px 1%;
+    border-radius: 5px;
+    padding: 5px;
+}
+#crud-addData input {
+    width: 87%;
+}
+#crud-addData button {
+    width: 8%;
+}
 
 /*edit */
-#table-data .table td input[type=text] {
+#crud-data .table td input[type="text"] {
     display: none;
 }
-#table-data .table .edit-mode input[type=text] {
+#crud-data .table .edit-mode input[type="text"] {
     display: block;
 }
 
-#table-data .table .edit-mode label {
+#crud-data .table .edit-mode label {
     display: none;
 }
